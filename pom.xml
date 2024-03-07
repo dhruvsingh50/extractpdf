@@ -4,13 +4,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.thoqbk</groupId>
-    <artifactId>openai-pdf</artifactId>
+    <groupId>com.shruv</groupId>
+    <artifactId>pdfchatgpt</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -46,7 +46,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.shruv.pdfchatgpt.Main</mainClass>
+                            <mainClass>com.dhruv.pdfchatgpt.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

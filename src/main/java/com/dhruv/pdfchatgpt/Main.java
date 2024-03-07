@@ -1,4 +1,4 @@
-package com.shruv.pdfchatgpt;
+package com.dhruv.pdfchatgpt;
 
 import com.google.gson.Gson;
 import io.github.jonathanlink.PDFLayoutTextStripper;
@@ -21,7 +21,7 @@ import java.util.Map;
 
 public class Main {
     private static final String OPENAI_API_KEY = "";
-    private static final String SAMPLE_PDF_FILE = "com/shruv/pdfchatgpt/sample-invoice.pdf";
+    private static final String SAMPLE_PDF_FILE = "com/dhruv/pdfchatgpt/sample-invoice.pdf";
     private static final String OPENAI_API_URL = "https://api.openai.com/v1/completions";
     private static final String QUERY = """
             Want to extract fields: "PO Number", "Total Amount" and "Delivery Address".
